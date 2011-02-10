@@ -48,4 +48,9 @@
     <developerConnection>scm:svn:https://dev.lutece.paris.fr/svn/lutece/portal/tags/plugin-insertajax-1.0.0</developerConnection>
     <url>https://dev.lutece.paris.fr/viewvc/portal/tags/plugin-insertajax-1.0.0</url>
   </scm>
+    <scm>
+        <connection>scm:svn:http://dev.lutece.paris.fr/svn/lutece/portal/trunk/plugins/cms</connection>
+        <developerConnection>scm:svn:https://dev.lutece.paris.fr/svn/lutece/portal/trunk/plugins/cms</developerConnection>
+        <url>http://dev.lutece.paris.fr/viewvc/portal/trunk/plugins/cms</url>
+    </scm>
 </project>
