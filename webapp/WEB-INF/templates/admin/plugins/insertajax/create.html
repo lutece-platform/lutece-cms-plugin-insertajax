@@ -1,0 +1,33 @@
+<div class="content-box" >
+    <h2>#i18n{insertajax.create.tableLabel}</h2>
+    <form method="post"  name="create" id="create" action="jsp/admin/plugins/insertajax/DoCreate.jsp">
+        <p>
+            <label for="name" >#i18n{insertajax.create.rowTitleLabel} * : </label> 
+            <input type="text" id="name" name="name" size="60" maxlength="50" tabindex="1" />
+        </p>
+        <p>
+            <label for="workgroup" >#i18n{insertajax.create.labelWorkgroupKey}*:</label>
+            <@combo name="workgroup" default_value="all" items=workgroups_list />
+        </p>
+        <p>
+            <label for="role" >#i18n{insertajax.create.labelRole}*:</label>
+            <@combo name="role" default_value="none" items=roles_list />
+        </p>        
+        <p>
+            <label for="sql" >#i18n{insertajax.create.rowSqlLabel} * : </label>
+            <input type="text" id="sql" name="sql" value="select count(*) from core_admin_right" size="60" maxlength="50" tabindex="1" />
+        </p>
+        <p>
+            <label>#i18n{insertajax.create.labelHtmlContent}</label>
+        </p>
+        <p>
+            <div>
+                <textarea id="html_content" name="html_content" rows="20" cols="90">${html_content}</textarea>
+            </div>
+        </p>
+        
+        <p>   
+            <input type="submit" value="#i18n{insertajax.create.buttonValidate}" class="button" tabindex="3" />
+        </p>
+    </form>
+</div>

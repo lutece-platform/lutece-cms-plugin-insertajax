@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<plug-in>
+    <name>insertajax</name>
+    <class>fr.paris.lutece.portal.service.plugin.PluginDefaultImplementation</class>
+    <version>1.0.2</version>
+    <description>insertajax.plugin.description</description>
+    <documentation></documentation>
+    <installation></installation>
+    <changes></changes>
+    <user-guide></user-guide>
+    <provider>insertajax.plugin.provider</provider>
+    <provider-url>http://lutece.paris.fr</provider-url>
+    <icon-url>images/admin/skin/plugins/insertajax/insertajax.png</icon-url>
+    <copyright>Copyright 2001-2009 Mairie de Paris</copyright>
+    <db-pool-required>1</db-pool-required>
+    <admin-features>
+        <admin-feature>
+            <feature-id>INSERTAJAX_MANAGEMENT</feature-id>
+            <feature-title>insertajax.adminFeature.insertajax_management.name</feature-title>
+            <feature-description>insertajax.adminFeature.insertajax_management.description</feature-description>
+            <feature-level>3</feature-level>
+            <feature-url>jsp/admin/plugins/insertajax/Manage.jsp</feature-url>
+            <feature-icon-url>images/admin/skin/plugins/insertajax/insertajax.png</feature-icon-url>
+            <feature-documentation-url>jsp/admin/documentation/AdminDocumentation.jsp?doc=admin-insertajax</feature-documentation-url>
+			<feature-group>APPLICATIONS</feature-group>
+        </admin-feature>
+    </admin-features>
+    <insert-services>
+        <insert-service>
+            <insert-service-id>INSERTAJAX_SERVICE</insert-service-id>
+            <insert-service-name>insertajax.insertService.name</insert-service-name>
+            <insert-service-bean-class>fr.paris.lutece.plugins.insertajax.web.InsertAjaxInsertServiceJspBean</insert-service-bean-class>
+            <insert-service-label>insertajax.insertService.label</insert-service-label>
+        </insert-service>
+    </insert-services>
+</plug-in>

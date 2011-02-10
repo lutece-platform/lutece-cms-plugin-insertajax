@@ -1,0 +1,18 @@
+<span id="ajaxelement">0</span>
+<script language="JavaScript" type="text/javascript">
+	var idInsertAjax = ID_PRIMARY_KEY;
+
+	function getUrl() {
+		var lastSlashPos = document.URL.indexOf("jsp");
+		var baseUrl = document.URL.substring(0,lastSlashPos);
+		var url = baseUrl.concat("jsp/site/plugins/insertajax/GetInsertAjax.jsp");
+		return url;
+	}
+
+	function callbackfunction(data) {
+		var nbrePlaces = eval(data);
+		document.getElementById("ajaxelement").innerHTML = data;
+	}
+
+	$.post(getUrl(), { id:idInsertAjax, plugin_name:'insertajax' }, callbackfunction);
+</script>

@@ -1,0 +1,1 @@
+<%= fr.paris.lutece.plugins.insertajax.web.InsertAjaxResult.getResult(request) %>

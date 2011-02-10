@@ -1,0 +1,11 @@
+<div class="insert-service">
+	<h2>#i18n{insertajax.insertajax_selector.title}</h2>
+	<div>#i18n{insertajax.insertajax_selector.intro}</div>
+	<br />
+
+	<#list insertajax_list as insertajax >
+		<a href="jsp/admin/plugins/insertajax/DoInsertLink.jsp?id=${insertajax.id}&input=${input}" class="bullet-link">
+			${insertajax.name}
+		</a><br />
+	</#list>
+</div>

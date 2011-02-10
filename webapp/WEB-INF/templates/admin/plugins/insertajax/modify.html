@@ -1,0 +1,35 @@
+<#include "/admin/util/editor/editor.html" />
+<div class="content-box" >
+    <h2>#i18n{insertajax.modify.tableLabel}</h2>
+    <form method="post"  name="modify" id="modify" action="jsp/admin/plugins/insertajax/DoModify.jsp">
+        <p>
+        	<label for="description" >#i18n{insertajax.modify.rowTitleLabel} * : </label> 
+			<input type="hidden" name="id" value="${insertajax.id}">
+        	<input type="text" id="name" name="name" size="60" maxlength="50" tabindex="1" value="${insertajax.name}" />
+        </p>
+        <p>
+            <label for="workgroup" >#i18n{insertajax.modify.labelWorkgroupKey}*:</label>
+            <@combo name="workgroup" default_value="${insertajax.workgroup}" items=workgroups_list />
+        </p>
+        <p>
+             <label for="role" >#i18n{insertajax.modify.labelRole}*:</label>
+            <@combo name="role" default_value="${insertajax.role}" items=roles_list />
+        </p>
+        <p>
+            <label for="sql" >#i18n{insertajax.create.rowSqlLabel} * : </label>
+            <input type="text" id="sql" name="sql" value="${insertajax.sql}" size="60" maxlength="50" tabindex="1" />
+        </p>
+        <p>
+            <label>#i18n{insertajax.modify.labelHtmlContent}</label>
+        </p>
+        <p>
+            <div id="richtext" class="editor">
+                <textarea id="html_content" name="html_content" rows="20" cols="90">${insertajax.html}</textarea>
+            </div>
+        </p>
+        <p>   
+        	<input type="submit" value="#i18n{insertajax.modify.buttonModify}" class="button" tabindex="3" />
+        </p>
+    </form>
+</div>
+<@initEditor />
