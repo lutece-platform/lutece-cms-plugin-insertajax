@@ -17,7 +17,7 @@
 	  <repository>
 	    <id>lutece</id>
 	    <name>luteceRepository</name>
-	    <url>http://dev.lutece.paris.fr/maven_repository</url>
+	    <url>http://dev.lutece.paris.fr/maven_repository/plugin-insertajax</url>
 	    <layout>default</layout>
 	  </repository>
 	</repositories>
@@ -44,13 +44,13 @@
 	</properties>
 
   <scm>
-    <connection>scm:svn:http://dev.lutece.paris.fr/svn/lutece/portal/tags/plugin-insertajax-1.0.0</connection>
-    <developerConnection>scm:svn:https://dev.lutece.paris.fr/svn/lutece/portal/tags/plugin-insertajax-1.0.0</developerConnection>
-    <url>https://dev.lutece.paris.fr/viewvc/portal/tags/plugin-insertajax-1.0.0</url>
+    <connection>scm:svn:http://dev.lutece.paris.fr/svn/lutece/portal/tags/plugin-insertajax-1.0.0/plugin-insertajax</connection>
+    <developerConnection>scm:svn:https://dev.lutece.paris.fr/svn/lutece/portal/tags/plugin-insertajax-1.0.0/plugin-insertajax</developerConnection>
+    <url>https://dev.lutece.paris.fr/viewvc/portal/tags/plugin-insertajax-1.0.0/plugin-insertajax</url>
   </scm>
     <scm>
-        <connection>scm:svn:http://dev.lutece.paris.fr/svn/lutece/portal/trunk/plugins/cms</connection>
-        <developerConnection>scm:svn:https://dev.lutece.paris.fr/svn/lutece/portal/trunk/plugins/cms</developerConnection>
-        <url>http://dev.lutece.paris.fr/viewvc/portal/trunk/plugins/cms</url>
+        <connection>scm:svn:http://dev.lutece.paris.fr/svn/lutece/portal/trunk/plugins/cms/plugin-insertajax</connection>
+        <developerConnection>scm:svn:https://dev.lutece.paris.fr/svn/lutece/portal/trunk/plugins/cms/plugin-insertajax</developerConnection>
+        <url>http://dev.lutece.paris.fr/viewvc/portal/trunk/plugins/cms/plugin-insertajax</url>
     </scm>
 </project>
