@@ -13,5 +13,9 @@
 		</menu>
 
 		<menu ref="reports" />
+		
+		<p>Ce plugin permet d'insérer un code HTML/javascript  dans une page via un "insertservice". 
+		Ce code met à jour une valeur de la page en fonction d'un requete paramétrable depuis le backoffice.
+		</p> 
 	</body>
 </project>
