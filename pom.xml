@@ -39,8 +39,8 @@
 	
 	<properties>
 		<componentName>insertajax</componentName>
-		<jiraProjectName>LUTECE</jiraProjectName>
-		<jiraComponentId>10045</jiraComponentId>
+		<jiraProjectName>INSERTAJAX</jiraProjectName>
+		<jiraComponentId>10203</jiraComponentId>
 	</properties>
 
     <scm>
