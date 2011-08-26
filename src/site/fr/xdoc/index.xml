@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+	<properties>
+		<title>Plugin insertajax</title>
+	</properties>
+	<body>
+		<section name="Plugin insertajax">
+			<subsection name="Introduction">
+				Insert du code dans la page de manière asynchrone en fonction d'un requete SQL paramétrable 
+				depuis le backoffice.
+			</subsection>
+		</section>
+	</body>
+</document>

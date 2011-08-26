@@ -1,21 +1,12 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-
-<project name="Lutece">
-	<version />
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
 	<body>
 		<links>
 			<item name="EN" href="../index.html" />
 		</links>
-
-		<menu name="Téléchargements" inherit="bottom" >
-			     <item name="Versions stables" href="../../../stable_builds/plugins/plugin-insertajax/"/>
-			     <item name="Nightly builds" href="../../../nightly_builds/plugins/plugin-insertajax/" />
+		<menu name="Aper&#231;u">
+			<item name="Introduction" href="index.html" />
 		</menu>
-
 		<menu ref="reports" />
-		
-		<p>Ce plugin permet d'insérer un code HTML/javascript  dans une page via un "insertservice". 
-		Ce code met à jour une valeur de la page en fonction d'un requete paramétrable depuis le backoffice.
-		</p> 
 	</body>
 </project>

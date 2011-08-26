@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+	<properties>
+		<title>Plugin insertajax</title>
+	</properties>
+	<body>
+		<section name="Plugin insertajax">
+			<subsection name="Introduction">
+				Dynamically insert html code according to a SQL request that you can edit in
+				a backoffice section.
+			</subsection>
+		</section>
+	</body>
+</document>
